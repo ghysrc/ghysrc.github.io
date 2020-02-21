@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ghysrc.github.io</id>
-    <title>Just do better</title>
-    <updated>2020-02-21T08:13:23.238Z</updated>
+    <title>ghysrc</title>
+    <updated>2020-02-21T08:27:16.389Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ghysrc.github.io"/>
     <link rel="self" href="https://ghysrc.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>Just do better</subtitle>
     <logo>https://ghysrc.github.io/images/avatar.png</logo>
     <icon>https://ghysrc.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Just do better</rights>
+    <rights>All rights reserved 2020, ghysrc</rights>
     <entry>
         <title type="html"><![CDATA[蚂蚁分工竞品分析]]></title>
         <id>https://ghysrc.github.io/post/ma-yi-fen-gong-jing-pin-fen-xi/</id>
