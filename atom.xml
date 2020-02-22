@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ghysrc.github.io</id>
     <title>PM海洋</title>
-    <updated>2020-02-22T09:21:37.120Z</updated>
+    <updated>2020-02-22T09:23:21.834Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ghysrc.github.io"/>
     <link rel="self" href="https://ghysrc.github.io/atom.xml"/>
@@ -32,7 +32,7 @@
 <figure data-type="image" tabindex="3"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/20-16-05-33-%E5%8D%8F%E5%90%8C%E7%B1%BB.png?token=AA7EYQFPVS4WXH2CAA7BICK6JY7A4" alt="协同类png" loading="lazy"></figure>
 <p>其中真正以项目管理为核心功能的，只有 Teambititon、任务管家、功倍、日事清、星任务Pro。星任务Pro已经有几个月没有更新，且用户反馈联系不到客服，所以剔除。功倍从产品定位和宣传上都主要面向的是电商行业，不算是要做通用的项目管理应用，而日事清与功倍从源头上隶属同一家公司，产品形态上也极为相似，所以同时剔除功倍和日事清。</p>
 <p>除了应用中心的第三方协同应用之外，钉钉自身还提供了一个叫项目空间的服务，虽然目前还处于 beta 版本，但从产品定位和目前的形态上看，一定是协同类有力的竞争者。</p>
-<p>最终选定 **Teambition、任务管家、项目空间 **来做竞品分析。</p>
+<p>最终选定 <strong>Teambition、任务管家、项目空间</strong> 来做竞品分析。</p>
 <h2 id="3-竞品分析">3、竞品分析</h2>
 <h3 id="31-产品定位">3.1 产品定位</h3>
 <p>通过查看钉钉应用中心的简介，几个应用都具有项目规划、协同工作、进度管理功能，核心功能比较一致。</p>
