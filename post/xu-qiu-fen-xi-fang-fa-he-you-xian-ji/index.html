@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>需求分析（二）方法和优先级 | PM海洋</title>
+<title>需求分析（三）拆解和优先级 | PM海洋</title>
 <meta name="description" content="Just do better" />
 <link rel="shortcut icon" href="https://ghysrc.github.io/favicon.ico">
 <link rel="stylesheet" href="https://ghysrc.github.io/styles/main.css">
@@ -77,7 +77,7 @@
         <div class="center content">
           <div class="featured-image cover" style="background-image: url('https://images.unsplash.com/photo-1458040937381-49c067dfd49a?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80');">
             <div class="meta top"> 
-              <time class="meta-info" style="float:left;" datetime="2018-05-24"><i class="fa fa-calendar"></i><span class="lately">2 年前</span></time>
+              <time class="meta-info" style="float:left;" datetime="2018-06-09"><i class="fa fa-calendar"></i><span class="lately">2 年前</span></time>
                
                
             </div>
@@ -87,7 +87,7 @@
                       <a href="https://ghysrc.github.io/tag/4lqibYVmi/" class="ctag ctag-0 ctag-4lqibYVmi" aria-label="">需求分析</a>
                     
               </div>
-              <h1 class="title ularge white bold">需求分析（二）方法和优先级</h1>
+              <h1 class="title ularge white bold">需求分析（三）拆解和优先级</h1>
             </div>
           </div>
         </div>  
@@ -97,9 +97,9 @@
             <article class="main-article post">
               <section class="post-content">
                 <div class="text">
-                  <p>上篇明确了什么是产品角度的需求，以及需求大多是从哪里来的，这篇就看看怎么分析需求，怎么决定一个需求要不要做，先做后做。</p>
-<h2 id="1-分析需求">1、分析需求</h2>
-<p>上篇说到，一个产品角度的<code>需求 = 用户 + 场景 + 目的 + 任务</code>，那分析一个需求要不要做、先做后做，就是从这个几个角度综合分析的。</p>
+                  <p>前两篇了解什么是产品角度的需求和来源，以及怎么去主动收集需求，这篇就看看怎么分析需求，怎么决定一个需求要不要做，先做后做。</p>
+<h2 id="1-拆解需求">1、拆解需求</h2>
+<p>上篇说到，一个产品角度的需求 = 用户 + 场景 + 目的 + 任务，那分析一个需求要不要做、先做后做，就是从这个几个角度综合分析的。</p>
 <h3 id="11-提需求的用户是不是产品的目标用户">1.1 提需求的用户是不是产品的目标用户？</h3>
 <p>产品经理最害怕的不是用户需求多，而是老板需求多，因为老板大都把自己当做产品的用户。但任何一个产品都不可能适合所有人，产品一定有它的目标用户群，而一些老板需求就仅仅是老板个人需求，并不具备普遍性。</p>
 <p>所以分析需求首先看提需求的用户是不是产品目标用户，如果不是，则大概率是要剔除的。</p>
@@ -113,10 +113,10 @@
 <h2 id="2-需求优先级">2、需求优先级</h2>
 <p>确定要做的需求就要进入需求池了，可所有的需求又不可能同时去实现，产品经理就要规划出实现需求的先后顺序了，然后再跟进需求顺序进行版本规划。</p>
 <p>常见的需求分析模型有马斯洛需求层次理论和 KANO 模型，马斯洛需求层次理论一般用在产品的需求定位上，比如饿了么对应设立需求，微博对应归属需求。</p>
-<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-18-52-59-msl1.jpg" alt="msl1jpg" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-18-52-59-msl1.jpg" alt="msl1.jpg" loading="lazy"></figure>
 <h3 id="21-kano-需求模型">2.1 KANO 需求模型</h3>
 <p>KANO 模型是东京理工大学教授狩野纪昭（Noriaki Kano）发明的对用户需求分类和优先排序的有用工具，以分析用户需求对用户满意的影响为基础，体现了产品性能和用户满意之间的非线性关系。可以通过判断需求在坐标中的位置，得出相应的优先级。</p>
-<figure data-type="image" tabindex="2"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-18-57-31-kano.jpg" alt="kanojpg" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-18-57-31-kano.jpg" alt="kano.jpg" loading="lazy"></figure>
 <h4 id="211-基本型需求">2.1.1 基本型需求</h4>
 <p>也叫必备型需求，是用户的痛点，也是用户对产品的最基本要求。产品有是应该的，没有就是不可接受的。比如路由器，它连续一年为我们提供网络服务我们也不会有什么感觉，可偶尔出现故障，那就是无法接受的。</p>
 <h4 id="212-期望型需求">2.1.2 期望型需求</h4>
@@ -150,14 +150,48 @@
 </tr>
 </tbody>
 </table>
+<h3 id="23-ice-评分">2.3 ICE 评分</h3>
+<p>ICE 评分排序是由 Sean Ellis 发明的，“增长黑客”这个概念也是他提出的，ICE 评分排序的理念如下：</p>
+<figure data-type="image" tabindex="3"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/22-17-02-58-ICE%20Score.png" alt="ICE Score.png" loading="lazy"></figure>
+<p>每个需求的 ICE 评分就等于<code>Impact x Confidence x Ease</code>，工作中可以使用类似下面的表格来进行评分和对比：</p>
+<table>
+<thead>
+<tr>
+<th>需求</th>
+<th>I - 影响力</th>
+<th>C- 信心</th>
+<th>E - 难度</th>
+<th>ICE 评分</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>免密码自动连接</td>
+<td>7</td>
+<td>9</td>
+<td>8</td>
+<td>504</td>
+</tr>
+<tr>
+<td>WiFi 红包</td>
+<td>3</td>
+<td>8</td>
+<td>6</td>
+<td>144</td>
+</tr>
+</tbody>
+</table>
+<p>还有一种 ICE 评分方法的扩展，叫做 RICE 评分，是在 ICE 评分的基础上增加了 Reach 即覆盖量的因素，RICE 的计算方式为：</p>
+<figure data-type="image" tabindex="4"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/22-17-11-05-rice.jpg" alt="rice.jpg" loading="lazy"></figure>
+<p>RICE 里面的 E 变成了 Effort，其实也是工作量的意思，不必纠结。</p>
 <h3 id="22-四象限法">2.2 四象限法</h3>
 <p>四象限有多种划分方法，KANO 本质上也是个四象限，其他最常用的就是重要紧急四象限，还可以看需求的影响面、开发的难度等。不同的产品在不同的阶段对不同的需求参考的原则也可能略有不同。</p>
 <h4 id="221-重要紧急">2.2.1 重要紧急</h4>
-<figure data-type="image" tabindex="3"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-21-18-06-%E9%87%8D%E8%A6%81%E7%B4%A7%E6%80%A5.png" alt="重要紧急png" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-21-18-06-%E9%87%8D%E8%A6%81%E7%B4%A7%E6%80%A5.png" alt="重要紧急.png" loading="lazy"></figure>
 <h4 id="222-覆盖面">2.2.2 覆盖面</h4>
-<figure data-type="image" tabindex="4"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-21-14-17-%E8%A6%86%E7%9B%96%E9%9D%A2.png" alt="覆盖面png" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-21-14-17-%E8%A6%86%E7%9B%96%E9%9D%A2.png" alt="覆盖面.png" loading="lazy"></figure>
 <h4 id="223-开发难度">2.2.3 开发难度</h4>
-<figure data-type="image" tabindex="5"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-21-13-15-%E5%BC%80%E5%8F%91%E9%9A%BE%E5%BA%A6.png" alt="开发难度png" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-21-13-15-%E5%BC%80%E5%8F%91%E9%9A%BE%E5%BA%A6.png" alt="开发难度.png" loading="lazy"></figure>
 
                 </div>
                 <div class="clear"></div>
@@ -183,10 +217,10 @@
               
               <article class="next grid-50 tablet-grid-50 grid-parent">
                 <div class="thumb cover lazy loaded" style="background-image: url('https://images.unsplash.com/photo-1458040937381-49c067dfd49a?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80');"></div>
-                 <a href="https://ghysrc.github.io/post/xu-qiu-fen-xi-ding-yi-he-lai-yuan/" class="full-link"></a>
+                 <a href="https://ghysrc.github.io/post/xu-qiu-fen-xi-er-yong-hu-diao-yan/" class="full-link"></a>
                  <div class="info">
-                  <time datetime="2018-05-21">2018-05-21</time>
-                  <h4 class="title white no-margin">需求分析（一）定义和来源</h4>
+                  <time datetime="2018-05-17">2018-05-17</time>
+                  <h4 class="title white no-margin">需求分析（二）用户调研</h4>
                 </div>
                  <span class="epcl-button red">
                   <img src="https://ghysrc.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
@@ -294,6 +328,8 @@
                   
                   
                   
+                  
+                  
                   <div class="clear"></div>
                 </section>
               </div>
@@ -349,7 +385,7 @@
           <a href="https://ghysrc.github.io"><img class="" src="https://ghysrc.github.io/media/images/logo.png" alt=""></a>
         </div>
         <p class="published border-effect">
-          ©2019 共 6 篇文章
+          ©2019 共 7 篇文章
           <br/>
           Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
         </p>
