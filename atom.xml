@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ghysrc.github.io</id>
     <title>PM海洋</title>
-    <updated>2020-02-22T09:23:21.834Z</updated>
+    <updated>2020-02-23T07:11:54.649Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ghysrc.github.io"/>
     <link rel="self" href="https://ghysrc.github.io/atom.xml"/>
@@ -536,11 +536,16 @@
 <h3 id="22-四象限法">2.2 四象限法</h3>
 <p>四象限有多种划分方法，KANO 本质上也是个四象限，其他最常用的就是重要紧急四象限，还可以看需求的影响面、开发的难度等。不同的产品在不同的阶段对不同的需求参考的原则也可能略有不同。</p>
 <h4 id="221-重要紧急">2.2.1 重要紧急</h4>
-<figure data-type="image" tabindex="5"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-21-18-06-%E9%87%8D%E8%A6%81%E7%B4%A7%E6%80%A5.png" alt="重要紧急.png" loading="lazy"></figure>
-<h4 id="222-覆盖面">2.2.2 覆盖面</h4>
-<figure data-type="image" tabindex="6"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-21-14-17-%E8%A6%86%E7%9B%96%E9%9D%A2.png" alt="覆盖面.png" loading="lazy"></figure>
-<h4 id="223-开发难度">2.2.3 开发难度</h4>
-<figure data-type="image" tabindex="7"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/22-17-20-45-ev.png" alt="开发难度.png" loading="lazy"></figure>
+<ol>
+<li>又重要又紧急。马上就要做的事情，但如果每天都在处理这类事情，那就说明工作安排是有问题的。</li>
+<li>紧急但不重要。这样的事情可以做，但尽量的少做。</li>
+<li>重要但不紧急。如果安排得当，大部分的工作都应该落在这个象限。</li>
+<li>不紧急不重要。尽量的不要做。</li>
+</ol>
+<figure data-type="image" tabindex="5"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-21-18-06-%E9%87%8D%E8%A6%81%E7%B4%A7%E6%80%A5.png" alt="重要紧急png" loading="lazy"></figure>
+<h4 id="222-roi">2.2.2 ROI</h4>
+<p>ROI 是投资回报率的意思，通俗点说就是评估做这一件事值不值，投入和回报的关系。这里的投入和回报都是宽泛的概念，投入包括金钱、时间、资源等，回报也包括收益、口碑、市场等，ROI 可以综合起来评估，也可以细分的评估。</p>
+<figure data-type="image" tabindex="6"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/23-15-08-22-roi.png" alt="roi.png" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
