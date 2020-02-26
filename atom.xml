@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ghysrc.github.io</id>
     <title>PM海洋</title>
-    <updated>2020-02-23T11:26:48.423Z</updated>
+    <updated>2020-02-26T08:40:45.350Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ghysrc.github.io"/>
     <link rel="self" href="https://ghysrc.github.io/atom.xml"/>
@@ -478,6 +478,54 @@
 <p>7、输入你想要的批量名称前缀</p>
 <figure data-type="image" tabindex="8"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/21-15-52-23-2020-02-21-15-49-21-image.png" alt="" loading="lazy"></figure>
 <p>8、点继续，你选择的文件就会变为上图中示例的那样了</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[需求实现（一）流程]]></title>
+        <id>https://ghysrc.github.io/post/xu-qiu-shi-xian-yi-liu-cheng/</id>
+        <link href="https://ghysrc.github.io/post/xu-qiu-shi-xian-yi-liu-cheng/">
+        </link>
+        <updated>2018-07-11T13:32:35.000Z</updated>
+        <content type="html"><![CDATA[<p>通过需求分析，明确了用户需求转化为产品需求后，我们要在产品上实现什么才能满足用户需求，比如要加一个导出功能。但我们不能直接就找开发说“在 xxx 页面加个导出功能”，因为通过这句话得不出具体的开发工作。</p>
+<p>一个产品需求到具体的实现方案，仍然是一步步形成的。从业务流程到页面流程，再到原型设计交互设计，每一步都通过了才是一个可执行的实现方案。这一篇介绍业务流程和页面流程。</p>
+<h2 id="1-业务流程">1、业务流程</h2>
+<p>由两个及以上的业务步骤，完成一个完整的业务行为的过程，可称之为流程。做任何事情实际上都有既定的流程，比如做一顿饭从买菜开始到洗碗结束可以定义出好几个步骤。而在产品中，无论是使用整个产品还是使用产品中的某一个功能，也都存在既定的流程。好的产品和功能流程自然、逻辑清晰，用户操作起来也会更加顺畅。而为了让用户能有好的操作体验，产品经理就得先设计出合理的流程。</p>
+<h3 id="11-流程的四个要素">1.1 流程的四个要素</h3>
+<p>一个合理的业务流程应该要包含以下四个要素：</p>
+<ol>
+<li>目的。这个业务流程最终要解决的问题和实现的目的是什么。</li>
+<li>用户。谁需要或者谁使用这个流程。</li>
+<li>步骤。用户为了达到目的，必经的步骤有哪些。</li>
+<li>反馈。用户在流程中遇到的问题，如何处理。</li>
+</ol>
+<p>以开头说到的导出功能为例来依次分析：</p>
+<ol>
+<li>导出的目的是什么？是为了转移数据，还是为了加工处理？</li>
+<li>谁需要导出？是每个用户，还是某类用户？</li>
+<li>导出需要几步操作？要不要选择时间范围、数据范围、导出格式？</li>
+<li>流程中的异常怎么处理？网络异常，数据量过大，没有数据...</li>
+</ol>
+<p>只有想清楚了这些问题，才可以说是一个相对完整的业务流程。</p>
+<h3 id="12-流程如何表达">1.2 流程如何表达</h3>
+<p>产品经理想清楚了流程中的所有细节，那如何让其他人也能同步的理解呢？俗话说一图胜千言，这里就需要画流程图了。流程图简单说就是用一些图形和说明来表达过程的方法。常用的图形和代表的含义如下图示例：</p>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/26-14-22-15-IMG_0709.JPG" alt="IMG_0709.JPG" loading="lazy"></figure>
+<p>仍然以导出功能的流程为例，结合这些图形，就可以画出类似下面的流程图。这样就可以通过图形化以及其过程流转，清晰的表达出流程的各个要素。</p>
+<figure data-type="image" tabindex="2"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/26-14-36-48-%E5%AF%BC%E5%87%BA%E6%95%B0%E6%8D%AE.png" alt="导出数据.png" loading="lazy"></figure>
+<h3 id="13-复杂流程">1.3 复杂流程</h3>
+<p>常见的复杂流程就是一个大的流程需要多个角色参与，每个角色都有自己的小流程，这些小流程又互有关联。这里在上面简单的导出流程中，加一个审批人的角色，导出数据必须要通过审批后才可以导出，就形成了一个复杂流程。</p>
+<figure data-type="image" tabindex="3"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/26-14-55-32-%E7%94%B3%E8%AF%B7%E5%AF%BC%E5%87%BA.png" alt="申请导出.png" loading="lazy"></figure>
+<p>再复杂的流程也是由一个个独立流程组成的，复杂流程中的独立流程就相当于独立流程中的步骤，方法是通用的。复杂流程中的四个要素是这样的：</p>
+<ol>
+<li>目的。各个参与者的任务是什么，总的任务是什么？</li>
+<li>用户。参与者有哪些，各自的角色分工是什么？</li>
+<li>步骤。子流程之间的流转关系是什么？</li>
+<li>反馈。一个子流程出现了异常，其他的流程会如何应对？</li>
+</ol>
+<h2 id="2-页面流程">2、页面流程</h2>
+<p>业务流程确定了之后，很多时候我们就开始做原型了，对于单一页面或小的业务流程，确实是可以的。但对于在多个页面之间流转的功能业务，在设计完整的原型页面之前，可以通过展示各个页面中的关键元素，以及串联页面关系的方式，来提前感知页面流程是否合理，从而去指导后续的原型和交互设计。</p>
+<p>以拼多多的下单为例，拼多多在商品详情页可以进行单独购买、发起拼单、参与拼单三种下单方式操作。这三种方式的页面流向分别如下：</p>
+<figure data-type="image" tabindex="4"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/26-16-27-59-%E9%A1%B5%E9%9D%A2%E6%B5%81%E7%A8%8B.png" alt="页面流程.png" loading="lazy"></figure>
+<p>通过页面流程图，可以快速的感知用户操作流程是否合理顺畅，提早发现流程中的问题进行优化；可以突出各个页面的重点元素，提前确定原型设计的注意点。以达到减少原型反复修改的目的，毕竟一套原型改起来也是不小的工作量。</p>
 ]]></content>
     </entry>
     <entry>
