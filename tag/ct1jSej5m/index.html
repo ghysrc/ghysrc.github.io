@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | PM海洋</title>
+<title>读书体验 | PM海洋</title>
 <meta name="description" content="Just do better" />
 <link rel="shortcut icon" href="https://ghysrc.github.io/favicon.ico">
 <link rel="stylesheet" href="https://ghysrc.github.io/styles/main.css">
@@ -13,11 +13,11 @@
 <script src="https://ghysrc.github.io/media/js/pace.min.js"></script>
 <script src="https://ghysrc.github.io/media/js/view-image.min.js"></script>
 <script src="https://ghysrc.github.io/media/js/functions.js"></script>
-    <script src="https://ghysrc.github.io/media/js/waterfall.min.js"></script>
-    <script src="https://ghysrc.github.io/media/js/prism.min.js"></script>
-    
   </head>
   <body>
+    <!-- start: #wrapper -->
+    <div class="wrapper">
+      
             <header id="header" class="grid-container">
         <!-- start: .menu-wrapper -->
         <div class="menu-mobile"> 
@@ -72,89 +72,45 @@
         <div class="clear"></div>
       </header>
 
-      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
-
-        <div class="center content">
-          <div class="featured-image cover" style="background-image: url('https://ghysrc.github.io/media/images/gridea.jpg');">
-            <div class="meta top"> 
-              <time class="meta-info" style="float:left;" datetime="2019-01-25"><i class="fa fa-calendar"></i><span class="lately">1 年前</span></time>
-               
-               
-            </div>
-            <div class="info">
-              <div class="tags ">
-                
-              </div>
-              <h1 class="title ularge white bold">关于</h1>
-            </div>
-          </div>
-        </div>  
-
+      <main id="home" class="main fullcover no-sidebar content">
+        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
         <div class="epcl-page-wrapper">
-          <div class="left-content grid-70 np-mobile">
-            <article class="main-article post">
-              <section class="post-content">
-                <div class="text">
-                  <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
-
-                </div>
-                <div class="clear"></div>
-              </section>
-            </article>
-            <div class="clear"></div>
-
-            <section class="related section">
-              
-              
-
-                <div class="clear"></div>
-            </section>
-
-              <div class="clear"></div>
-
-              <div id="comments" class="bg-white hosted ">
-
-              
+          <div class="left-content grid-70 np-mobile widget_epcl_related_articles">
                 
-                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+            <!-- start: .articles -->
+            <div class="main-article post">
+  <h2 class="year"># 读书体验</h2>
+    
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://ghysrc.github.io/post/lesslesswu-jie-greatergreater-mao-ding-xiao-ying/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display: block;background-image: url('https://images.unsplash.com/photo-1546502208-81d149d52bd7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2706&amp;q=80');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2020-02-18">2020-02-18</time>
+          <h4 class="title usmall">
+            <a href="https://ghysrc.github.io/post/lesslesswu-jie-greatergreater-mao-ding-xiao-ying/">《无价》 - 锚定效应</a>
+          </h4>
+        </div>
+      </article>
 
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: 'a00464683ba45143a97e',
-    clientSecret: 'e247c757321f5980e99e88a3da9ad68b9070575e',
-    repo: 'ghysrc.github.io',
-    owner: 'ghysrc',
-    admin: ['ghysrc'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
+    
+    <div class="clear"></div>
+</div>
+            <!-- end: .articles -->
+            
+                        <div class="epcl-pagination section">
+              <div class="nav">
                 
                 
-              
-                <div class="clear"></div>
               </div>
-
-              <div class="clear"></div>
             </div>
+            
           </div>
+          </div>
+        </div>
       </main>
 
-          <footer id="footer" class="grid-container">
+        <footer id="footer" class="grid-container">
         <div class="widgets row gradient-effect">
             <div class="default-sidebar border-effect">
               <div class="grid-33 tablet-grid-50 mobile-grid-100">
@@ -295,50 +251,6 @@
         </a>
     </footer>
     <div class="clear"></div>
-
-      <script type="text/javascript">
-       jQuery(document).ready(function($){
-          $("photos img").each(function(){
-              var _a = $("<a></a>").attr("href",this.src);
-              $(this).wrap("<div class='photo'></div>").wrap(_a);
-          })
-          $("figure img").each(function(){
-              var _b = $("<a></a>").attr("href",this.src);
-              $(this).wrap(_b);
-          })
-          isImgLoad(function(){
-            var photos = document.querySelector('photos');
-            if(photos){
-              waterfall(photos);
-            }
-            $(window).resize(function() {
-             if(photos){
-                  waterfall(photos);
-            }
-          });
-        });
-        var t_img;
-        var isLoad = true;
-        function isImgLoad(callback){
-          $('photos img').each(function(){
-            if(this.height === 0){
-              isLoad = false;
-              return false;
-            }
-          });
-          if(isLoad){
-            clearTimeout(t_img);
-            callback();
-          }else{
-            isLoad = true;
-            t_img = setTimeout(function(){
-              isImgLoad(callback);
-            },500);
-          }
-        }
-      });
-      </script>
-
     </div>
     <!-- end: #wrapper -->
   </body>
