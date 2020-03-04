@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ghysrc.github.io</id>
     <title>PM海洋</title>
-    <updated>2020-03-02T08:24:40.296Z</updated>
+    <updated>2020-03-04T01:03:01.789Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ghysrc.github.io"/>
     <link rel="self" href="https://ghysrc.github.io/atom.xml"/>
@@ -10,46 +10,6 @@
     <logo>https://ghysrc.github.io/images/avatar.png</logo>
     <icon>https://ghysrc.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, PM海洋</rights>
-    <entry>
-        <title type="html"><![CDATA[Breek List Test]]></title>
-        <id>https://ghysrc.github.io/post/list/</id>
-        <link href="https://ghysrc.github.io/post/list/">
-        </link>
-        <updated>2020-02-23T07:21:02.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>
-<p>第一行</p>
-</li>
-<li>
-<p>第二行</p>
-</li>
-<li>
-<p>第三行</p>
-</li>
-</ul>
-<p>Ordered list</p>
-<ol>
-<li>
-<p>第一行</p>
-</li>
-<li>
-<p>第二行</p>
-</li>
-<li>
-<p>第三行</p>
-</li>
-<li>
-<p>第一行</p>
-</li>
-<li>
-<p>第二行</p>
-</li>
-<li>
-<p>第三行</p>
-</li>
-</ol>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[《无价》 - 锚定效应]]></title>
         <id>https://ghysrc.github.io/post/lesslesswu-jie-greatergreater-mao-ding-xiao-ying/</id>
@@ -85,7 +45,7 @@
 <p>比如下面是某网盘的会员价格，当你有了开会员的需求，你原本只想用一个月，可看到这些选项，大概率是要选择年付了。毕竟相较于每月 10 元，一个月 30 太“傻”了。这就是商家期望你选择的，月付 30 的选项作为了锚点，月付 10 就显得极具性价比。</p>
 <figure data-type="image" tabindex="2"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/03/02-16-13-09-ctp.png" alt="ctp.png" loading="lazy"></figure>
 <h2 id="3-总结">3、总结</h2>
-<p>这本书并不复杂，讲的核心理论是跟我们的日常是息息相关的。虽然读完了也并不能摆脱锚点对我们的影响，毕竟商品的定价权在卖方那里。但我们可以通过看清锚点，来让消费更加的理智，减少不必要的损失。</p>
+<p>这本书并不复杂，讲的核心理论是跟我们的日常是息息相关的。虽然读完了也并不能摆脱锚点对我们的影响，毕竟商品的定价权在卖方那里。但我们可以通过看清锚点，来让消费更加的理智，减少不必要的损失。同时也可以将锚点效应应用在产品的设计中。</p>
 ]]></content>
     </entry>
     <entry>
@@ -773,6 +733,74 @@
 <p>有些用户是非常有热情的，描述的场景和问题时也很有感染力，无形之中就加大了某个需求的比重，进而影响我们把这个问题的级别提高了，可能我们都会劝自己“虽然这个问题提的少，但对用户很重要”。</p>
 <h3 id="24-教用户怎么用">2.4 教用户怎么用</h3>
 <p>和我们教父母使用智能机不一样，在场景观察中其实是用户通过行为和情绪，来教我们怎么去提高和优化产品。我们在用户旁边不是要去教这一个用户怎么正确的使用产品，而是通过这一个用户帮我们认识到产品的普适缺陷。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[需求分析（一）定义和来源]]></title>
+        <id>https://ghysrc.github.io/post/xu-qiu-fen-xi-ding-yi-he-lai-yuan/</id>
+        <link href="https://ghysrc.github.io/post/xu-qiu-fen-xi-ding-yi-he-lai-yuan/">
+        </link>
+        <updated>2018-05-06T11:20:40.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="1-什么是需求">1、什么是需求</h2>
+<p>从个人角度看，需求是为了达到某个目的而产生的欲望，比如我要去跑步，从表面上看，跑步好像就已经是目的了，可我为什么要去跑步呢？为了锻炼身体增强体质，那目的就是身体健康；为了陪女朋友一起跑，那陪女朋友才是目的。<br>
+产品经理要做的，就是把个人角度的需求，经过理解和分析，转化成产品角度的需求。从产品角度看，<code>需求 = 用户 + 场景 + 目的 + 任务</code>，分解来看：</p>
+<ul>
+<li>用户。谁的需求？他在产品中的角色是什么？是领导还是员工？</li>
+<li>场景。在什么情况下的需求？办公室还是通勤路上，电脑还是手机？</li>
+<li>目的。想要达成什么目的？</li>
+<li>任务。产品上要如何满足这个需求？<br>
+大部分的用户需求都是不能直接转化为产品需求的，一定要经过分析之后，明确产品角度需求的各个元素，然后再进入是否要做的分析流程。</li>
+</ul>
+<h2 id="2-需求的来源">2、需求的来源</h2>
+<h3 id="21-团队内部">2.1 团队内部</h3>
+<ol>
+<li>老板。团队内部需求最多的当属老板了，毕竟产品的核心理念是老板的，最容易发散出各种需求。</li>
+<li>产品部。有心的产品经理和设计师也会在自己对产品的理解和规划下，提出不少需求。</li>
+<li>其他部门。比如运营和销售，考虑对自身业绩的影响，也会有自己的需求。</li>
+</ol>
+<h3 id="22-用户反馈">2.2 用户反馈</h3>
+<ol>
+<li>开放渠道。比如应用市场的用户评价，微博上的吐槽。</li>
+<li>半开放渠道。比如用户的朋友圈或相关的群。</li>
+<li>内部渠道。比如通过客服的反馈，产品自带的在线反馈。</li>
+</ol>
+<h3 id="23-用户调研">2.3 用户调研</h3>
+<p>通过调研过程中的访谈和用户行为反馈得到的需求。</p>
+<h3 id="24-竞品">2.4 竞品</h3>
+<ol>
+<li>竞品的已有功能</li>
+<li>竞品的新功能</li>
+<li>竞品的用户反馈</li>
+</ol>
+<h2 id="3-记录需求">3、记录需求</h2>
+<p>收集到的需求该如何记录，仍然是从产品角度<code>需求 = 用户 + 场景 + 目的 + 任务</code>来做到最原始的记录。</p>
+<table>
+<thead>
+<tr>
+<th>需求名称</th>
+<th>用户</th>
+<th>场景</th>
+<th>目的</th>
+<th>任务</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>评论时想发图片</td>
+<td>年轻用户</td>
+<td>评论时想到了非常切题的表情包</td>
+<td>懒得打字，直接好玩的表情包评论</td>
+<td>评论系统支持图片</td>
+</tr>
+<tr>
+<td>自动导出员工报表</td>
+<td>企业领导</td>
+<td>月底要导出进行绩效评定</td>
+<td>免去每月手动导出，可以定时并自动</td>
+<td>定时导出到用户绑定邮箱</td>
+</tr>
+</tbody>
+</table>
 ]]></content>
     </entry>
 </feed>
