@@ -3627,13 +3627,11 @@ div.text ol {
 div.text ul,
 div.text ul li {
   list-style-type: disc;
-  list-style-position: inside;
   position: relative;
 }
 div.text ol,
 div.text ol li {
   list-style-type: decimal;
-  list-style-position: inside;
 }
 div.text ol ol {
   list-style: upper-alpha;
