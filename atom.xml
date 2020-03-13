@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ghysrc.github.io</id>
     <title>PM海洋</title>
-    <updated>2020-03-11T10:01:52.137Z</updated>
+    <updated>2020-03-13T11:14:04.150Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ghysrc.github.io"/>
     <link rel="self" href="https://ghysrc.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, PM海洋</rights>
     <entry>
         <title type="html"><![CDATA[《游戏改变世界》- 游戏化]]></title>
-        <id>https://ghysrc.github.io/post/lesslessyou-xi-gai-bian-shi-jie-greatergreater-you-xi-hua/</id>
-        <link href="https://ghysrc.github.io/post/lesslessyou-xi-gai-bian-shi-jie-greatergreater-you-xi-hua/">
+        <id>https://ghysrc.github.io/post/RealityIsBroken/</id>
+        <link href="https://ghysrc.github.io/post/RealityIsBroken/">
         </link>
         <updated>2020-03-06T09:58:21.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/03/11-17-57-40-s11136690.jpg" alt="s11136690.jpg" loading="lazy"></figure>
@@ -54,8 +54,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[《远见》- 规划职业生涯]]></title>
-        <id>https://ghysrc.github.io/post/lesslessyuan-jian-greatergreater-gui-hua-zhi-ye-sheng-ya/</id>
-        <link href="https://ghysrc.github.io/post/lesslessyuan-jian-greatergreater-gui-hua-zhi-ye-sheng-ya/">
+        <id>https://ghysrc.github.io/post/TheLongView/</id>
+        <link href="https://ghysrc.github.io/post/TheLongView/">
         </link>
         <updated>2020-02-24T09:19:43.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/03/07-17-19-13-s29699274.jpg" alt="s29699274.jpg" loading="lazy"></figure>
