@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>知识积累 | PM海洋</title>
+<title>需求分析（三）拆解和需求池 | PM海洋</title>
 <meta name="description" content="Just do better" />
 <link rel="shortcut icon" href="https://ghysrc.github.io/favicon.ico">
 <link rel="stylesheet" href="https://ghysrc.github.io/styles/main.css">
@@ -13,11 +13,11 @@
 <script src="https://ghysrc.github.io/media/js/pace.min.js"></script>
 <script src="https://ghysrc.github.io/media/js/view-image.min.js"></script>
 <script src="https://ghysrc.github.io/media/js/functions.js"></script>
+    <script src="https://ghysrc.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://ghysrc.github.io/media/js/prism.min.js"></script>
+    
   </head>
   <body>
-    <!-- start: #wrapper -->
-    <div class="wrapper">
-      
             <header id="header" class="grid-container">
         <!-- start: .menu-wrapper -->
         <div class="menu-mobile"> 
@@ -72,58 +72,143 @@
         <div class="clear"></div>
       </header>
 
-      <main id="home" class="main fullcover no-sidebar content">
-        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
-        <div class="epcl-page-wrapper">
-          <div class="left-content grid-70 np-mobile widget_epcl_related_articles">
-                
-            <!-- start: .articles -->
-            <div class="main-article post">
-  <h2 class="year"># 知识积累</h2>
-    
-      <article class="item default grid-33 tablet-grid-50 np-mobile">
-        <a href="https://ghysrc.github.io/post/WhyQuitAntbim/" class="thumb hover-effect">
-          <span class="fullimage cover" style="display: block;background-image: url('https://images.unsplash.com/photo-1487528278747-ba99ed528ebc?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2700&amp;q=80');"></span>
-        </a>
-        <div class="info gradient-effect">
-          <time datetime="2020-03-01">2020-03-01</time>
-          <h4 class="title usmall">
-            <a href="https://ghysrc.github.io/post/WhyQuitAntbim/">我为什么从蚂蚁分工离职</a>
-          </h4>
-        </div>
-      </article>
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
 
-    
-      <article class="item default grid-33 tablet-grid-50 np-mobile">
-        <a href="https://ghysrc.github.io/post/PlanWithTheme/" class="thumb hover-effect">
-          <span class="fullimage cover" style="display: block;background-image: url('https://images.unsplash.com/photo-1576004283865-0d784ad39f59?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2704&amp;q=80');"></span>
-        </a>
-        <div class="info gradient-effect">
-          <time datetime="2020-02-01">2020-02-01</time>
-          <h4 class="title usmall">
-            <a href="https://ghysrc.github.io/post/PlanWithTheme/">用主题定义新年计划</a>
-          </h4>
-        </div>
-      </article>
-
-    
-    <div class="clear"></div>
-</div>
-            <!-- end: .articles -->
-            
-                        <div class="epcl-pagination section">
-              <div class="nav">
-                
-                
-              </div>
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('https://images.unsplash.com/photo-1458040937381-49c067dfd49a?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2020-02-09"><i class="fa fa-calendar"></i><span class="lately">2 个月前</span></time>
+               
+               
             </div>
-            
+            <div class="info">
+              <div class="tags ">
+                
+                      <a href="https://ghysrc.github.io/tag/4lqibYVmi/" class="ctag ctag-0 ctag-4lqibYVmi" aria-label="">需求分析</a>
+                    
+              </div>
+              <h1 class="title ularge white bold">需求分析（三）拆解和需求池</h1>
+            </div>
           </div>
+        </div>  
+
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <p>前两篇了解什么是产品角度的需求和来源，以及怎么去主动收集需求，这篇就看看怎么分析需求，怎么决定一个需求要不要做，先做后做。</p>
+<h2 id="1-拆解需求">1、拆解需求</h2>
+<p>上篇说到，一个产品角度的需求 = 用户 + 场景 + 目的 + 任务，那分析一个需求要不要做、先做后做，就是从这个几个角度综合分析的。</p>
+<h3 id="11-提需求的用户是不是产品的目标用户">1.1 提需求的用户是不是产品的目标用户？</h3>
+<p>产品经理最害怕的不是用户需求多，而是老板需求多，因为老板大都把自己当做产品的用户。但任何一个产品都不可能适合所有人，产品一定有它的目标用户群，而一些老板需求就仅仅是老板个人需求，并不具备普遍性。</p>
+<p>所以分析需求首先看提需求的用户是不是产品目标用户，如果不是，则大概率是要剔除的。</p>
+<h3 id="12-用户的场景是不是典型使用场景">1.2 用户的场景是不是典型使用场景？</h3>
+<p>比如笔记软件，用户想在某些场景下，邀请朋友一起编辑文档。这个用户需求本身并没有错，确实对他是有用的。但笔记软件的典型使用场景是个人记录，不是协同协作，所以这个需求大概率也要剔除。</p>
+<h3 id="13-用户的目的是否必须得达成">1.3 用户的目的是否必须得达成？</h3>
+<p>目标用户的典型场景下，需求好像就必须要做了，但我们可以再反问一下，能不能不做？不做的话影响有多少？</p>
+<p>比如笔记软件的导出功能，用户想本地留备份肯定是没错的。但笔记不能导出也不会影响用户的使用，至少在产品的早期，这个需求是可以不被满足的。</p>
+<h3 id="14-我们如何实现这个需求">1.4 我们如何实现这个需求？</h3>
+<p>经过前面 3 个问题的论证，那这个需求就应该要做了。那实现这个需求要做哪些准备？需要用到什么资源？是否有什么限制？比如是否要用到第三方 SDK，研发实力能不能实现等。</p>
+<h2 id="2-建立需求池">2、建立需求池</h2>
+<p>经过需求的拆解分析，那些确定要做的需求就需要更为完整的记录下来，便于后续的迭代管理。那些暂时认为不该做的，在原始记录的基础上，添加上不做的原因，以便回溯。</p>
+<p>我常用的需求池大概是这样的：</p>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/ghysrc/ImageStorage/master/2020/02/23-19-22-28-pool.png" alt="" loading="lazy"></figure>
+<ul>
+<li>需求状态。需求正在处于哪个阶段，比如正在开发，还是在设计中。</li>
+<li>所属模块。产品一般都会分为几个功能模块，便于组织整理。</li>
+<li>需求任务。这里的任务就是用户需求转化为产品需求后，我们要做的事情。前面的编号是我自己起的，字母代表模块，数字代表模块内的需求编号。</li>
+<li>优先级。需求肯定无法同时去进行的，必须制定出哪个先做哪个后做。优先级的制定下一篇会说。</li>
+<li>计划版本。计划在后面的哪个版本更新中实现。</li>
+<li>预计上线。计划的版本在什么时候上线。</li>
+<li>需求来源。是用户的反馈，还是老板的需求，还是自己挖掘出来的。</li>
+<li>提交时间。这个需求是哪一天提交的。</li>
+<li>停留时长。自提交后，这个需求在需求池里呆了多少天了。</li>
+<li>原始描述。提交需求的人，原话是如何描述的，包括文字、图片等。而前面的需求任务是产品经理对于原始描述拆解分析后，转化的开发任务。</li>
+<li>备注。其他信息。</li>
+</ul>
+<p>其他的字段可以根据公司和产品的特点来增减，比如终端，电脑端还是手机端的需求，也可以通过两端使用两个需求池来处理。</p>
+<p>而对于那些收到但决定不做的需求，是不进入需求池的，而是应该用其他的表格记录。比如记录好决定不做的理由是什么，是否反馈给了提交人。</p>
+<p>除此之外 bug 也是不进需求池的，bug 在任何时候都是第一优先要去处理的，而需求池的目的是预先做好工作安排。</p>
+
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://images.unsplash.com/photo-1458040937381-49c067dfd49a?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80');"></div>
+                 <a href="https://ghysrc.github.io/post/DemandDnalysis-4/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-02-13">2020-02-13</time>
+                  <h4 class="title white no-margin">需求分析（四）优先级</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://ghysrc.github.io/media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://images.unsplash.com/photo-1458040937381-49c067dfd49a?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80');"></div>
+                 <a href="https://ghysrc.github.io/post/DemandDnalysis-2/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-02-06">2020-02-06</time>
+                  <h4 class="title white no-margin">需求分析（二）用户调研</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://ghysrc.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+
+              <div id="comments" class="bg-white hosted ">
+
+              
+                
+                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'a00464683ba45143a97e',
+    clientSecret: 'e247c757321f5980e99e88a3da9ad68b9070575e',
+    repo: 'ghysrc.github.io',
+    owner: 'ghysrc',
+    admin: ['ghysrc'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+                
+                
+              
+                <div class="clear"></div>
+              </div>
+
+              <div class="clear"></div>
+            </div>
           </div>
-        </div>
       </main>
 
-        <footer id="footer" class="grid-container">
+          <footer id="footer" class="grid-container">
         <div class="widgets row gradient-effect">
             <div class="default-sidebar border-effect">
               <div class="grid-33 tablet-grid-50 mobile-grid-100">
@@ -280,6 +365,50 @@
         </a>
     </footer>
     <div class="clear"></div>
+
+      <script type="text/javascript">
+       jQuery(document).ready(function($){
+          $("photos img").each(function(){
+              var _a = $("<a></a>").attr("href",this.src);
+              $(this).wrap("<div class='photo'></div>").wrap(_a);
+          })
+          $("figure img").each(function(){
+              var _b = $("<a></a>").attr("href",this.src);
+              $(this).wrap(_b);
+          })
+          isImgLoad(function(){
+            var photos = document.querySelector('photos');
+            if(photos){
+              waterfall(photos);
+            }
+            $(window).resize(function() {
+             if(photos){
+                  waterfall(photos);
+            }
+          });
+        });
+        var t_img;
+        var isLoad = true;
+        function isImgLoad(callback){
+          $('photos img').each(function(){
+            if(this.height === 0){
+              isLoad = false;
+              return false;
+            }
+          });
+          if(isLoad){
+            clearTimeout(t_img);
+            callback();
+          }else{
+            isLoad = true;
+            t_img = setTimeout(function(){
+              isImgLoad(callback);
+            },500);
+          }
+        }
+      });
+      </script>
+
     </div>
     <!-- end: #wrapper -->
   </body>

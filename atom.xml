@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ghysrc.github.io</id>
     <title>PM海洋</title>
-    <updated>2020-03-27T07:23:46.293Z</updated>
+    <updated>2020-04-11T07:32:33.864Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ghysrc.github.io"/>
     <link rel="self" href="https://ghysrc.github.io/atom.xml"/>
@@ -24,7 +24,7 @@
 <p>女：你哪里不无情，哪里不残酷，哪里不无理取闹？</p>
 </blockquote>
 <p>虽然这是影视剧里面矫情的台词对话，但现实中我们也会以类似的方式进行沟通。女孩说“你心里就没我！”，男孩就条件反射一般“怎么就没你了？”，接着就是“哪里有我了？”，“哪里没你了？”......</p>
-<p>与书名“非暴力沟通”相对的，上面这种就是暴力沟通的一种。言语上的指责、嘲讽、否定、说教，以及任意打断、拒不回应、随意出口的评价和结论，都是暴力沟通。它给我们带来的情感和精神上的创伤，甚至比肉体的上海更令人痛苦。</p>
+<p>与书名“非暴力沟通”相对的，上面这种就是暴力沟通的一种。言语上的指责、嘲讽、否定、说教，以及任意打断、拒不回应、随意出口的评价和结论，都是暴力沟通。它给我们带来的情感和精神上的创伤，甚至比肉体的伤害更令人痛苦。</p>
 <p>两个互相喜欢的人为什么总是吵架，亲人之间为什么聊几句就开始厌烦，出于好意却总是伤害了对方......问题的根源也许不在于人、不在于事，而在于怎么说。</p>
 <h2 id="1-非暴力沟通的四个要素">1、非暴力沟通的四个要素</h2>
 <h3 id="11-观察而非评论">1.1 观察而非评论</h3>
@@ -470,8 +470,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[需求实现（一）流程]]></title>
-        <id>https://ghysrc.github.io/post/xu-qiu-shi-xian-yi-liu-cheng/</id>
-        <link href="https://ghysrc.github.io/post/xu-qiu-shi-xian-yi-liu-cheng/">
+        <id>https://ghysrc.github.io/post/DemandAchieve-1/</id>
+        <link href="https://ghysrc.github.io/post/DemandAchieve-1/">
         </link>
         <updated>2020-02-17T13:32:35.000Z</updated>
         <content type="html"><![CDATA[<p>通过需求分析，明确了用户需求转化为产品需求后，我们要在产品上实现什么才能满足用户需求，比如要加一个导出功能。但我们不能直接就找开发说“在 xxx 页面加个导出功能”，因为通过这句话得不出具体的开发工作。</p>
@@ -518,8 +518,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[需求分析（四）优先级]]></title>
-        <id>https://ghysrc.github.io/post/xu-qiu-fen-xi-si-you-xian-ji/</id>
-        <link href="https://ghysrc.github.io/post/xu-qiu-fen-xi-si-you-xian-ji/">
+        <id>https://ghysrc.github.io/post/DemandDnalysis-4/</id>
+        <link href="https://ghysrc.github.io/post/DemandDnalysis-4/">
         </link>
         <updated>2020-02-13T11:23:57.000Z</updated>
         <content type="html"><![CDATA[<p>需求池搭建好了，需求也进来了，就该规划出实现需求的先后顺序了，然后再跟进需求顺序进行版本规划。</p>
@@ -614,8 +614,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[需求分析（三）拆解和需求池]]></title>
-        <id>https://ghysrc.github.io/post/xu-qiu-fen-xi-fang-fa-he-you-xian-ji/</id>
-        <link href="https://ghysrc.github.io/post/xu-qiu-fen-xi-fang-fa-he-you-xian-ji/">
+        <id>https://ghysrc.github.io/post/DemandDnalysis-3/</id>
+        <link href="https://ghysrc.github.io/post/DemandDnalysis-3/">
         </link>
         <updated>2020-02-09T13:22:38.000Z</updated>
         <content type="html"><![CDATA[<p>前两篇了解什么是产品角度的需求和来源，以及怎么去主动收集需求，这篇就看看怎么分析需求，怎么决定一个需求要不要做，先做后做。</p>
